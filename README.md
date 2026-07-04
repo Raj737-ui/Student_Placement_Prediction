@@ -55,7 +55,8 @@ pip install -r requirements.txt
 ```
 streamlit run app.py
 ```
-
+Link for the app:
+https://studentplacementprediction.streamlit.app/
 ## Author
 
 Raj Thali
