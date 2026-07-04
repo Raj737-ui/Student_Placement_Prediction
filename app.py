@@ -276,7 +276,7 @@ elif page == "📊 Dataset":
             "Placement Status",
             "0",
             "0",
-            "5",
+            "10",
             "5"
         ]
     }
