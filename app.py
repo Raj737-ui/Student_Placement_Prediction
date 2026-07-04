@@ -294,7 +294,7 @@ elif page == "🤖 Prediction":
 
     with col1:
         age = st.number_input("Age", 0,60,23, key = "Age")
-        gender = st.selectbox("Gender", ["Male", "female"], key = "Gender")
+        gender = st.selectbox("Gender", ["Male", "Female"], key = "Gender")
         degree = st.selectbox("Degree",
                      ["B.Tech", "B.E", "B.Sc", "BCA", "M.Tech", "MBA", "MCA"],
                      key = "Degree")
