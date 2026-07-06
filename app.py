@@ -300,7 +300,7 @@ elif page == "🤖 Prediction":
                      key = "Degree")
         branch = st.selectbox("Branch", ["NA" ,"CSE", "IT", "ECE", "EEE",  "Mechanical",
                                  "Civil", "Electrical"], key = "Branch")
-        cgpa = st.slider("CGPA", 0,10,7 , key = "CGPA")
+        cgpa = st.slider("CGPA", 0.00,10.00,7.00 , key = "CGPA")
         internships = st.slider("Internships", 0,10,2, key = "Internships")
         projects = st.slider("Projects", 0,10,2, key = "Projects")
 
