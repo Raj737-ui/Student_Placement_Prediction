@@ -22,17 +22,14 @@ st.sidebar.title("🎓 Placement Prediction")
 st.markdown("""
 <style>
 
-/* ===========================
-   MAIN APP BACKGROUND
-=========================== */
+
+
 .stApp {
     background: linear-gradient(135deg,#0F2027,#203A43,#2C5364);
     color: white;
 }
 
-/* ===========================
-   SIDEBAR
-=========================== */
+
 section[data-testid="stSidebar"]{
     background: linear-gradient(180deg,#0B132B,#1C2541);
 }
@@ -41,9 +38,7 @@ section[data-testid="stSidebar"] *{
     color:white !important;
 }
 
-/* ===========================
-   TITLES
-=========================== */
+
 
 h1{
     color:#FFFFFF;
@@ -56,9 +51,7 @@ h2,h3,h4{
     color:#F8FAFC;
 }
 
-/* ===========================
-   LABELS
-=========================== */
+
 
 label{
     color:white !important;
@@ -66,9 +59,7 @@ label{
     font-size:16px;
 }
 
-/* ===========================
-   NUMBER INPUT
-=========================== */
+
 
 .stNumberInput input{
     background:white !important;
@@ -76,9 +67,7 @@ label{
     border-radius:10px;
 }
 
-/* ===========================
-   SELECT BOX
-=========================== */
+
 
 div[data-baseweb="select"] > div{
     background:white !important;
@@ -109,17 +98,13 @@ div[data-baseweb="menu"] div:hover{
     background:#D6EAF8 !important;
 }
 
-/* ===========================
-   SLIDER
-=========================== */
+
 
 .stSlider label{
     color:white !important;
 }
 
-/* ===========================
-   BUTTON
-=========================== */
+
 
 .stButton>button{
 
@@ -149,9 +134,7 @@ div[data-baseweb="menu"] div:hover{
     transform:scale(1.02);
 }
 
-/* ===========================
-   METRIC CARD
-=========================== */
+
 
 div[data-testid="metric-container"]{
 
@@ -166,9 +149,7 @@ div[data-testid="metric-container"]{
     backdrop-filter:blur(8px);
 }
 
-/* ===========================
-   SUCCESS
-=========================== */
+
 
 .stSuccess{
 
@@ -179,9 +160,7 @@ div[data-testid="metric-container"]{
     border-radius:10px;
 }
 
-/* ===========================
-   ERROR
-=========================== */
+
 
 .stError{
 
@@ -192,25 +171,18 @@ div[data-testid="metric-container"]{
     border-radius:10px;
 }
 
-/* ===========================
-   PROGRESS BAR
-=========================== */
 
 .stProgress > div > div > div > div{
     background:#22C55E;
 }
 
-/* ===========================
-   HORIZONTAL LINE
-=========================== */
+
 
 hr{
     border:1px solid rgba(255,255,255,0.2);
 }
 
-/* ===========================
-   REMOVE STREAMLIT MENU
-=========================== */
+
 
 #MainMenu{
     visibility:hidden;
