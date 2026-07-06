@@ -16,7 +16,7 @@ scaler = data["scaler"]
 
 
 st.sidebar.image("logo.png", width=100)
-st.sidebar.title("Placement Prediction")
+
 st.sidebar.title("🎓 Placement Prediction")
 
 st.markdown("""
