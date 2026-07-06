@@ -305,8 +305,8 @@ elif page == "🤖 Prediction":
         projects = st.slider("Projects", 0,10,2, key = "Projects")
 
     with col2:
-        coding = st.slider("Coding Skills", 0,100,70,key = "coding" )
-        communication = st.slider("Communication Skills", 0,100,70,key = "communication" )
+        coding = st.slider("Coding Skills", 0,10,7,key = "coding" )
+        communication = st.slider("Communication Skills", 0,10,7,key = "communication" )
         aptitude = st.slider("Aptitude Test Score ", 0,100,70,key = "aptitude")
         soft_skills = st.slider("Soft Skills", 0,10,6, key = "soft_skills")
         certifications = st.slider("Certifications", 0,10,3, key = "certifications")
